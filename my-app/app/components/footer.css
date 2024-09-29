@@ -1,0 +1,12 @@
+input{
+    background-color: transparent;
+    
+}
+li{
+    color: white;
+    list-style: none;
+    padding-bottom: 0.3rem;
+}
+h1{
+    color: white;
+}
