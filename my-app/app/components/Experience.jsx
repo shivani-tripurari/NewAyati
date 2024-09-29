@@ -8,7 +8,7 @@ import './exp.css';
 const Experience = () => {
   return (
     <>
-    <div className='h-[112vh] md:h-[90vh] lg:h-[112vh] w-[100%] exp-sec'>
+    <div className='h-[122vh] pt-20 md:h-[90vh] lg:h-[112vh] w-[100%] exp-sec'>
         <div className='p-4 block md:flex md:justify-between md:items-center lg:flex lg:justify-between lg:items-center lg:p-20'>
             <div className='ml-7'>
                 <p className='text-base md:text-lg lg:text-xl'>Who we are</p>

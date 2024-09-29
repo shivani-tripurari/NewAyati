@@ -6,7 +6,7 @@ const Factor = () => {
   return (
     <>
 
-    <div className='h-[126vh] w-[100%] exp-sec'>
+    <div className='h-[132vh] w-[100%] exp-sec'>
         <div className='p-4 block md:flex md:justify-between md:items-center lg:flex lg:justify-between lg:items-center lg:p-12'>
             <div className='ml-7'>
                 <p className='text-base pl-7 md:text-lg lg:text-xl'>Why Us</p>
