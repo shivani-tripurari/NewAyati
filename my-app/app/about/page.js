@@ -11,9 +11,9 @@ import Footer from '../components/Footer';
 const AboutPage = () => {
   return (
     <div className='relative bg-[#FBBC89] pb-10 w-[100%]'>
-      <div className='bg-[#1B3540] h-[32vh] lg:h-[56vh]'>
+      <div className='bg-[#1B3540] h-[36vh] lg:h-[56vh]'>
         <Navbar/>
-        <h1 className='text-[#FBBC89] text-5xl lg:text-7xl absolute top-56 left-[31%] lg:left-[39%] '>About Us</h1>
+        <h1 className='text-[#FBBC89] text-5xl lg:text-7xl absolute top-48 left-[31%] lg:left-[39%] '>About Us</h1>
       </div>
       <div className='ml-3 lg:ml-20 mt-20 flex flex-col lg:flex-row items-center justify-evenly'>
         <div className='w-full lg:w-[40%] lg:ml-20 p-7'>
@@ -83,7 +83,7 @@ const AboutPage = () => {
             </div>
         </div>
       </div>
-      <div className='mt-20 mb-20 bg-[#1B3540] h-[56vh] lg:h-[40vh] w-full'>
+      <div className='mt-20 pb-10 mb-20 bg-[#1B3540] h-[80vh] lg:h-[40vh] w-full'>
         <h1 className=' pt-16 text-[#fbbc89] ml-7 mr-7 text-2xl lg:text-3xl lg:ml-16 lg:mr-12 font-semibold '>Ayati strives to innovate in areas that most others don’t giving their clients a range of benefits.</h1>
         <p className='text-[#ffffff] text-base font-semibold ml-7 mr-10 mt-7 lg:ml-16 lg:pr-32 pb-20 lg:pb-20'>Well-designed and earmarked spaces in landscape and outdoor design maximise space utilisation and use the available spaces according to different age groups - ranging from tot lots & barbeque spaces, outdoor dining, party areas, walking trails around the property and other socially interactive spaces.<br/>
 Apart from the above social spaces, interested residents are given a designated space for urban farming which can be used for herbs, spices and vegetable gardening. This practice encourages social bonding, a sense of community and hobby time.</p>
