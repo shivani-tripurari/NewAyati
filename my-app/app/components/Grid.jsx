@@ -29,15 +29,15 @@ const Grid = () => {
                 <br/> OF ECO LIVING</h1>
             <div className='block lg:flex lg:justify-center lg:items:center'>
                 <div className='block px-7  lg:flex lg:flex-col lg:justify-evenly lg:items:center lg:mr-4'>
-                    <div className='bg-white h-[12rem] md:h-[28rem] w-full mb-3 lg:h-[20rem] lg:w-[20rem]' ><Image src={img1} className='h-full w-full object-cover'/></div>
-                    <div className='bg-white h-[12rem] md:h-[28rem] w-full mb-3 lg:h-[20rem] lg:w-[20rem]' ><Image src={img2} className='h-full w-full object-cover'/></div>
+                    <div className='bg-white h-[11rem] md:h-[28rem] w-full mb-3 lg:h-[20rem] lg:w-[20rem]' ><Image src={img1} className='h-full w-full object-cover'/></div>
+                    <div className='bg-white h-[11rem] md:h-[28rem] w-full mb-3 lg:h-[20rem] lg:w-[20rem]' ><Image src={img2} className='h-full w-full object-cover'/></div>
                 </div>
                 <div className='block px-7 lg:flex lg:flex-col lg:justify-center lg:items:center lg:mr-4' >
-                    <div className='bg-white h-[28rem] md:h-[32rem] w-full mb-3 lg:h-[40rem] lg:w-[24rem]'><Image src={img3} className='h-full w-full object-cover'/></div>
+                    <div className='bg-white h-[22rem] md:h-[32rem] w-full mb-3 lg:h-[40rem] lg:w-[24rem]'><Image src={img3} className='h-full w-full object-cover'/></div>
                 </div>
                 <div className='block px-7  lg:flex lg:flex-col lg:justify-evenly lg:items:center'>
-                    <div className='bg-white h-[12rem] md:h-[28rem] w-full mb-3 lg:h-[20rem] lg:w-[20rem]' ><Image src={img4} className='h-full w-full object-cover'/></div>
-                    <div className='bg-white h-[12rem] md:h-[28rem] w-full mb-3 lg:h-[20rem] lg:w-[20rem]' ><Image src={img5} className='h-full w-full object-cover'/></div>
+                    <div className='bg-white h-[11rem] md:h-[28rem] w-full mb-3 lg:h-[20rem] lg:w-[20rem]' ><Image src={img4} className='h-full w-full object-cover'/></div>
+                    <div className='bg-white h-[11rem] md:h-[28rem] w-full mb-3 lg:h-[20rem] lg:w-[20rem]' ><Image src={img5} className='h-full w-full object-cover'/></div>
 
                 </div>
             </div>
