@@ -11,6 +11,10 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      screens: {
+        'fold': '700px',
+        'ipad-air': '820px', // Custom breakpoint for 820px width
+      },
       backgroundImage: {
         'hero-pattern': "url('./assets/banner_bg.png')",
       },

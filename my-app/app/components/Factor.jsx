@@ -24,7 +24,7 @@ const Factor = () => {
 
             
 
-            <div className='absolute top-[-2rem] z-10 p-7 h-[32rem] w-full md:w-3/5 lg:w-1/2 lg:left-28'>
+            <div className='absolute top-[-2rem] z-10 p-7 h-[32rem] w-full fold:left-28 fold:p-3 fold:w-3/5 md:w-3/5 lg:w-1/2 lg:left-28'>
 
                 <Image src={img3}/>
             </div>
