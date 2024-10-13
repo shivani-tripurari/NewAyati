@@ -1,9 +1,23 @@
+"use client";
 import Image from 'next/image'
 import React from 'react'
 import Navbar from './Navbar'
 import img1 from '../assets/ayatiHero.png'
+import img2 from '../assets/ayati2.png'
+// import Slider from "react-slick";
 
 const Hero = () => {
+
+  // const settings = {
+  //   dots: true,
+  //   fade: true,
+  //   infinite: true,
+  //   speed: 500,
+  //   slidesToShow: 1,
+  //   slidesToScroll: 1,
+  //   waitForAnimate: false
+  // };
+
   return (
     <>
     <div className='relative h-[100vh] md:h-[50vh] lg:h-[100vh] w-[100%] bg-hero-pattern bg-background object-contain'>
@@ -21,10 +35,13 @@ const Hero = () => {
                 {/* <h3>Ayati Lake View</h3>
                 <p>View project</p> */}
             </div>
-            <div className='h-[33rem] w-full md:h-[24rem] md:w-4/5 lg:w-4/5 lg:h-[33rem] bg-white'>
-                <Image src={img1} className='h-full w-full object-cover bg-no-repeat' /> 
-                {/* Scroll images and chnaging text */}
-            </div>
+            
+            
+              <div className='h-[33rem] w-full md:h-[24rem] md:w-4/5 lg:w-4/5 lg:h-[33rem] bg-white'>
+                  <Image src={img1} className='h-full w-full object-cover bg-no-repeat' />
+              </div>
+              
+            
         </div>
     </div>
     
