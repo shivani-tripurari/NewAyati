@@ -7,7 +7,7 @@ import GetInTouch from './GetInTouch'
 const Footer = () => {
   return (
     <>
-      <div className=' bg-[#FBBC89]'>
+      <div className='pt-10 pb-20 bg-[#FBBC89]'>
         <GetInTouch/>
         <div className='ml-12 lg:ml-20 mt-20 flex flex-col lg:flex-row items-start lg:items-end justify-between'>
           <div className='flex flex-col lg:flex-row items-start justify-evenly'>
