@@ -6,11 +6,13 @@ import Footer from '../components/Footer';
 const SustainPage = () => {
   return (
     <>
-        <div className='relative bg-[#FBBC89] pb-10 w-[100%]'>
-            <div className='bg-[#1B3540] h-[40vh] lg:h-[56vh]'>
-                <Navbar/>
-                <h1 className='text-[#FBBC89] text-5xl lg:text-7xl absolute top-56 left-[21%] lg:left-[39%] '>Sustainabilty</h1>
-            </div>
+        <div className=' bg-[#FBBC89] pb-10 w-[100%]'>
+        <div className=' bg-[#1B3540] pb-10 pt-10 lg:h-[56vh]'>
+        <Navbar/>
+        <div className='flex flex-col justify-center items-center'>
+            <h1 className='text-[#FBBC89] text-5xl lg:text-7xl pt-24 pb-20 lg:pb-3 lg:pt-10 '>Sustainability</h1>
+        </div>
+      </div>
             <div className='ml-3 lg:ml-20 mt-20 flex flex-col lg:flex-row items-center justify-evenly'>
               <div className='w-full lg:w-[40%] lg:ml-20 p-7'>
             {/* text */}

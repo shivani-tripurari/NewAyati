@@ -16,10 +16,12 @@ const ProjectPage = () => {
 
   return (
    <>
-    <div className='relative bg-[#FBBC89] pb-10 w-[100%]'>
-            <div className='bg-[#1B3540] h-[36vh] mb-20 lg:h-[56vh]'>
+    <div className=' bg-[#FBBC89] pb-10 w-[100%]'>
+            <div className='bg-[#1B3540]  mb-20 lg:h-[56vh]'>
                 <Navbar/>
-                <h1 className='text-[#FBBC89] text-5xl lg:text-7xl absolute top-56 left-[31%] lg:left-[39%] '>Projects</h1>
+                <div className='flex flex-col justify-center items-center'>
+            <h1 className='text-[#FBBC89] text-5xl lg:text-7xl pt-24 pb-20 lg:pb-3 lg:pt-10 '>Projects</h1>
+        </div>
             </div>
             <div>
                 <h2 className='uppercase p-2 ml-5 mt-10  text-2xl lg:text-4xl lg:ml-20 lg:mt-16 text-[#1B3540]'>Ongoing Projects</h2>

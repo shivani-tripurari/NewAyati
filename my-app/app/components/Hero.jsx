@@ -20,9 +20,9 @@ const Hero = () => {
 
   return (
     <>
-    <div className='relative h-[100vh] md:h-[50vh] lg:h-[100vh] w-[100%] bg-hero-pattern bg-background object-contain'>
+    <div className='pb-20 w-[100%] bg-hero-pattern bg-background object-contain bg-center bg-no-repeat'>
         <Navbar/>
-        <div className='absolute top-36 block mt-0 md:top-20 md:flex md:items-center md:justify-evenly lg:top-36 lg:flex lg:items-center lg:justify-evenly '>
+        <div className='mt-20 block mt-0 md:top-20 md:flex md:items-center md:justify-evenly lg:top-36 lg:flex lg:items-center lg:justify-evenly '>
             <div className='mr-7'>
 
 

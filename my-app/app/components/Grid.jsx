@@ -24,18 +24,18 @@ const Grid = () => {
                     <div className='bg-white h-[20rem] mb-3 w-full lg:w-[20rem]' ><Image src={img4} className='h-full w-full object-cover'/></div>
                     <div className='bg-white h-[20rem] mb-3 w-full lg:w-[20rem]' ><Image src={img5} className='h-full w-full object-cover'/></div> */}
 
-        <div className='relative pt-20 h-[170vh] md:h-[260vh] lg:h-[140vh] w-[100%] bg-hero-pattern bg-background object-contain'>
+        <div className='pl-10 pr-10 pt-20 pb-20 bg-hero-pattern bg-background object-contain'>
             <h1 className='text-[#FBBC89] text-3xl md:3xl lg:text-6xl py-7 flex justify-center items-center text-center lg:text-right lg:mr-20 lg:justify-end' >BUILDING THE FUTURE 
                 <br/> OF ECO LIVING</h1>
             <div className='block lg:flex lg:justify-center lg:items:center'>
-                <div className='block px-7  lg:flex lg:flex-col lg:justify-evenly lg:items:center lg:mr-4'>
+                <div className='block pl-3  lg:flex lg:flex-col lg:justify-evenly lg:items:center lg:mr-4'>
                     <div className='bg-white h-[11rem] md:h-[28rem] w-full mb-3 lg:h-[20rem] lg:w-[20rem]' ><Image src={img1} className='h-full w-full object-cover'/></div>
                     <div className='bg-white h-[11rem] md:h-[28rem] w-full mb-3 lg:h-[20rem] lg:w-[20rem]' ><Image src={img2} className='h-full w-full object-cover'/></div>
                 </div>
-                <div className='block px-7 lg:flex lg:flex-col lg:justify-center lg:items:center lg:mr-4' >
-                    <div className='bg-white h-[22rem] md:h-[32rem] w-full mb-3 lg:h-[40rem] lg:w-[24rem]'><Image src={img3} className='h-full w-full object-cover'/></div>
+                <div className='block pl-3 lg:flex lg:flex-col lg:justify-center lg:items:center lg:mr-2' >
+                    <div className='bg-white h-[22rem] md:h-[32rem] w-full mb-3 lg:h-[40rem] lg:w-[22rem]'><Image src={img3} className='h-full w-full object-cover'/></div>
                 </div>
-                <div className='block px-7  lg:flex lg:flex-col lg:justify-evenly lg:items:center'>
+                <div className='block pl-3  lg:flex lg:flex-col lg:justify-evenly lg:items:center'>
                     <div className='bg-white h-[11rem] md:h-[28rem] w-full mb-3 lg:h-[20rem] lg:w-[20rem]' ><Image src={img4} className='h-full w-full object-cover'/></div>
                     <div className='bg-white h-[11rem] md:h-[28rem] w-full mb-3 lg:h-[20rem] lg:w-[20rem]' ><Image src={img5} className='h-full w-full object-cover'/></div>
 

@@ -6,7 +6,7 @@ const Factor = () => {
   return (
     <>
 
-    <div className='h-[148vh] mb-20 w-[100%] exp-sec'>
+    <div className=' mb-20 pb-40 w-[100%] exp-sec'>
         <div className='p-4 block md:flex md:justify-between md:items-center lg:flex lg:justify-between lg:items-center lg:p-12'>
             <div className='ml-7'>
                 <p className='text-base pl-7 md:text-lg lg:text-xl'>Why Us</p>
@@ -20,15 +20,15 @@ const Factor = () => {
                 <p className='text-base md:text-lg lg:text-xl'>Years of experience</p>
             </div> */}
         </div>
-        <div className='block relative md:flex lg:flex justify-center items-center'>
+        <div className='block  md:flex lg:flex justify-center items-center'>
 
             
 
-            <div className='absolute top-[-2rem] z-10 p-7 h-[32rem] w-full fold:left-28 fold:p-3 fold:w-3/5 md:w-3/5 lg:w-1/2 lg:left-28'>
+            <div className='mt-3 pt-[-2rem] z-10  h-[32rem] w-full fold:pl-28 fold:pl-3 fold:w-3/4 md:w-[81%] lg:w-1/2 lg:pl-28'>
 
-                <Image src={img3}/>
+                <Image src={img3} className='h-full w-full'/>
             </div>
-            <div className='absolute top-96 pt-20 p-7 pb-10 bg-[#1B3540] w-full lg:w-2/3 lg:top-[-4rem] lg:right-0 lg:pl-36'>
+            <div className=' pt-96 pt-20 p-7 pb-10 bg-[#1B3540] w-full lg:w-2/3 lg:top-[-4rem] lg:right-0 lg:pl-36'>
                 <h1 className='text-[#FBBC89]  text-2xl md:text-2xl lg:text-3xl'>WHAT IS AYATI DOING 
                     <br/>DIFFERENT FROM THE REST ?</h1>
                 <ol>
