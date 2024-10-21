@@ -25,31 +25,31 @@ const Navbar = () => {
         <ul className='hidden lg:flex lg:items-start lg:justify-evenly lg:mt-7 lg:mr-24'>
           <Link href='/'>
             <li className='p-7'>
-              <h3 className='text-sm md:text-xs lg:text-xl'>HOME</h3>
+              <h3 className='text-sm md:text-xs lg:text-lg'>HOME</h3>
             </li>
           </Link>
 
           <Link href='/about'>
             <li className='p-7'>
-              <h3 className='text-sm md:text-xs lg:text-xl'>ABOUT US</h3>
+              <h3 className='text-sm md:text-xs lg:text-lg'>ABOUT</h3>
             </li>
           </Link>
 
           <Link href='/projects'>
             <li className='p-7'>
-              <h3 className='text-sm md:text-xs lg:text-xl'>PROJECTS</h3>
+              <h3 className='text-sm md:text-xs lg:text-lg'>PROJECTS</h3>
             </li>
           </Link>
 
           <Link href='/sustain'>
             <li className='p-7'>
-              <h3 className='text-sm md:text-xs lg:text-xl'>SUSTAINABILITY</h3>
+              <h3 className='text-sm md:text-xs lg:text-lg'>SUSTAINABILITY</h3>
             </li>
           </Link>
 
           <Link href='/contact'>
             <li className='p-7'>
-              <h3 className='text-sm md:text-xs lg:text-xl'>CONTACT US</h3>
+              <h3 className='text-sm md:text-xs lg:text-lg'>CONTACT</h3>
             </li>
           </Link>
         </ul>
