@@ -10,7 +10,7 @@ const Factor = () => {
         <div className='p-4 block md:flex md:justify-between md:items-center lg:flex lg:justify-between lg:items-center lg:p-12'>
             <div className='ml-7'>
                 <p className='text-base pl-7 md:text-lg lg:text-xl'>Why Us</p>
-                <h1 className='text-3xl text-[#1B3540] p-7 md:3xl lg:text-5xl'>THE AYATI FACTOR </h1>
+                <h1 className='text-3xl text-[#1B3540] pl-7 pt-2 pb-7 md:3xl lg:text-7xl'>THE AYATI FACTOR </h1>
 
    
 
@@ -28,7 +28,7 @@ const Factor = () => {
 
                 <Image src={img3} className='h-full w-full'/>
             </div>
-            <div className=' pt-96 pt-20 p-7 pb-10 bg-[#1B3540] w-full lg:w-2/3 lg:top-[-4rem] lg:right-0 lg:pl-36'>
+            <div className=' pt-36 pt-20 p-7 pb-10 bg-[#1B3540] w-full lg:w-2/3 lg:top-[-4rem] lg:right-0 lg:pl-36'>
                 <h1 className='text-[#FBBC89]  text-2xl md:text-2xl lg:text-3xl'>WHAT IS AYATI DOING 
                     <br/>DIFFERENT FROM THE REST ?</h1>
                 <ol>

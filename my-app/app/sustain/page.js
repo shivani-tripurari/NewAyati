@@ -7,7 +7,7 @@ const SustainPage = () => {
   return (
     <>
         <div className=' bg-[#FBBC89] pb-10 w-[100%]'>
-        <div className=' bg-[#1B3540] pb-20 pt-10'>
+        <div className=' bg-[#1B3540] pb-20 pt-0'>
         <Navbar/>
         <div className='flex flex-col justify-center items-center'>
             <h1 className='text-[#FBBC89] text-5xl lg:text-7xl pt-24 pb-20 lg:pb-3 lg:pt-10 '>Sustainability</h1>
